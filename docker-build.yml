@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and push
         run: |
-          docker build -t your-dockerhub-username/your-image-name:latest .
-          docker push your-dockerhub-username/your-image-name:latest
+          docker build -t ashleylynx96/shell_docker:latest .
+          docker push ashleylynx96/shell_docker:latest
